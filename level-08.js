@@ -3,13 +3,13 @@ function convertNumToTime(num) {
     var minutes = (num % 60);
     
     var hourText;
-    if(hour <= 1) {
+    if(hour == 1) {
         hourText = "hour";
     } else {
         hourText = "hours";
     }
     var minuteText; 
-    if(minutes <= 1) {
+    if(minutes == 1) {
         minuteText = "minute";
     } else {
         minuteText = "minutes";
