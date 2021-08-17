@@ -6,7 +6,6 @@ function vowelOutput(str) {
         if(vowelArray.includes(str[i])) {
             vowels += str[i].toLowerCase();            
         }
-
     }
     var oneLetter = [...new Set(vowels)];
     console.log("Vowels: " + oneLetter.join(", "));
