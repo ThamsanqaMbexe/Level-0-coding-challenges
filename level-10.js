@@ -5,9 +5,7 @@ function commonChar(str1, str2) {
         if(str1.includes(str2[i])) {
             common += str2[i].toLowerCase();            
         }
-
     }
     var oneLetter = [...new Set(common)];
     console.log("Common Letters: " + oneLetter.join(", "));
-
 }
