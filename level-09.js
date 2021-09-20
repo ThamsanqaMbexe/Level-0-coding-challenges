@@ -8,5 +8,5 @@ function vowelOutput(str) {
         }
     }
     let oneLetter = [...new Set(vowels)];
-    console.log("Vowels: " + oneLetter.join(", "));
+    console.log(`Vowels: ${oneLetter.join(", ")}`);
 }

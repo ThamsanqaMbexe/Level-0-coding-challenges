@@ -9,5 +9,5 @@ function commonLetters(str1, str2) {
         }
     }
     let oneLetter = [...new Set(common)];
-    console.log("Common Letters: " + oneLetter.join(", "));
+    console.log(`Common Letters: ${oneLetter.join(", ")}`);
 }
