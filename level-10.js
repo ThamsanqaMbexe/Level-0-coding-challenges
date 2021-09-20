@@ -1,5 +1,5 @@
-function commonChar(str1, str2) {
-    var common = "";
+function commonLetters(str1, str2) {
+    let common = "";
 
     for(i = 0; i < str1.length; i++) {
         for(j = 0; j < str2.length; j++) {
@@ -8,6 +8,6 @@ function commonChar(str1, str2) {
             }
         }
     }
-    var oneLetter = [...new Set(common)];
+    let oneLetter = [...new Set(common)];
     console.log("Common Letters: " + oneLetter.join(", "));
 }

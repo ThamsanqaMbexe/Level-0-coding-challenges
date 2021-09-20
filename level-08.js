@@ -1,19 +1,19 @@
-function convertNumToTime(num) {
-    var hour = Math.floor(num / 60);
-    var minutes = (num % 60);
+function convertToTime(num) {
+    let hours = Math.floor(num / 60);
+    let minutes = (num % 60);
     
-    var hourText;
-    if(hour == 1) {
+    let hourText;
+    if(hours == 1) {
         hourText = "hour";
     } else {
         hourText = "hours";
     }
-    var minuteText; 
+    let minuteText; 
     if(minutes == 1) {
         minuteText = "minute";
     } else {
         minuteText = "minutes";
     }
 
-    console.log(hour + " " + hourText + ", " + minutes + " " + minuteText);
+    console.log(hours + " " + hourText + ", " + minutes + " " + minuteText);
 }

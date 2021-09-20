@@ -1,4 +1,4 @@
-function maxNum(a, b, c) {
+function maximumNumber(a, b, c) {
     if( a > (b && c)) {
         return a;
     } else if (b > (a && c)) {
